@@ -22,7 +22,7 @@ defmodule SashaEduTest.ChapterOne do
   end
 
   test "concat_string" do
-    assert SashaEdu.ChapterOne.concat_string("Sasha", "Artem") == "Sasha Artem"
+    assert SashaEdu.ChapterOne.concat_string("Sasha", "Artem") == "SashaArtem"
     assert SashaEdu.ChapterOne.concat_string("1", "1") == "11"
     assert SashaEdu.ChapterOne.concat_string("23", "32") == "2332"
   end
