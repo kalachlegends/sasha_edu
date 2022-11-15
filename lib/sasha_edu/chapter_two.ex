@@ -21,4 +21,20 @@ defmodule SashaEdu.ChapterTwo do
   #     true -> "gbcz"
   #   end
   # end
+  def pattern(type) do
+    cond do
+      is_bitstring(type) -> "#{type} Sanya"
+
+    end
+  end
+
+  def get_type(type) do
+    cond do
+      is_bitstring(type) -> "String"
+      is_tuple(type) -> "Tuple"
+      is_number(type) -> "Int"
+      is_map(type) -> "Map"
+      true -> "error"
+    end
+  end
 end

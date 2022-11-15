@@ -9,10 +9,10 @@ defmodule SashaEduTest.ChapterTwo do
   end
 
   test "get_type" do
-    assert SashaEdu.ChapterOne.get_type("Sasha") == "String"
-    assert SashaEdu.ChapterOne.get_type({:ok}) == "Tuple"
-    assert SashaEdu.ChapterOne.get_type(1) == "Int"
-    assert SashaEdu.ChapterOne.get_type(%{map: "1"}) == "Map"
+    assert SashaEdu.ChapterTwo.get_type("Sasha") == "String"
+    assert SashaEdu.ChapterTwo.get_type({:ok}) == "Tuple"
+    assert SashaEdu.ChapterTwo.get_type(1) == "Int"
+    assert SashaEdu.ChapterTwo.get_type(%{map: "1"}) == "Map"
   end
 
   test "rock_papper_scisscorig" do
