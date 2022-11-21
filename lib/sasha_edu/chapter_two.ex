@@ -2,7 +2,7 @@ defmodule SashaEdu.ChapterTwo do
   # def pattern_matching(:map) do
   #   :map
   # end
-
+# ТЕСТОВЫЙ комит
   # def pattern_matching(:list) do
   #   :list
   # end
